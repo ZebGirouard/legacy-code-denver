@@ -28,18 +28,6 @@ Below is a basic rundown of the files in the app, and what they do.  This is mos
 
 ## The Problems
 
-### Squashing Bugs
-
-Some things are just not working right.  See if you can make these things work.
-
-1. There is no map on our "Event Location" screen.  There should be.
-2. The text input on "Event Location" does not autoComplete with the Google Places API.  It should.
-
-### All the Features!
-
-1. There is no way to get back to other screens (like Event Location and Event Invite) from the Event Review page.  Add some buttons to each of our summary rows that redirects to the respective screen on our ui-router.
-2. It is OK that "Create Event" does not currently save to the Database, but we need to test that all the information *can* be saved.  Rewire the "Create Event" button so it displays all the eventInfo in an alert dialog.  Bonus points if you can wire it up with a modal.
-
 ### There Is No "I" in UI...ummm, Nevermind
 
 1. The text is incredibly small on the Event Details screen.  Please make it bigger.  Bonus points if you can make it even bigger for mobile.
@@ -57,6 +45,18 @@ There are a bunch of features the product has decided to abandon, but we still h
 2. The "Enable location sharing?" toggle button.
 3. We have two dot-progress bars at the bottom of the screen.  Probably only need one of those.  Pick the one that makes sense to you.
 4. The "Event Type" section on the "Event Details" screen.
+
+### Squashing Bugs
+
+Some things are just not working right.  See if you can make these things work.
+
+1. There is no map on our "Event Location" screen.  There should be.
+2. The text input on "Event Location" does not autoComplete with the Google Places API.  It should.
+
+### All the Features!
+
+1. There is no way to get back to other screens (like Event Location and Event Invite) from the Event Review page.  Add some buttons to each of our summary rows that redirects to the respective screen on our ui-router.
+2. It is OK that "Create Event" does not currently save to the Database, but we need to test that all the information *can* be saved.  Rewire the "Create Event" button so it displays all the eventInfo in an alert dialog.  Bonus points if you can wire it up with a modal.
 
 ### A Note on Refactoring
 
